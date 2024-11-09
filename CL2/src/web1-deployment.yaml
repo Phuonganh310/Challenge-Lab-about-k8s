@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web1-deployment
+  labels:
+    app: web1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web1
+  template:
+    metadata:
+      labels:
+        app: web1
+    spec:
+      containers:
+        - name: pixelgreen-container
+          image: panh3010/pixelgreen-website:latest
+          ports:
+            - containerPort: 80
