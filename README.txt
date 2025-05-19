@@ -1,6 +1,4 @@
 Dưới đây là danh sách mô tả các bài thực hành và kết quả thu được
-Dù đã tắt tường lửa và tìm hiểu một số cách khác nhưng em vẫn chưa tìm được nguyên do không thể chạy lệnh `curl`
-Em xin phép dùng lệnh `minikube service <service_name> --url` để truy cập vào các trang web
 
 # Cấp độ 1: Nginx mặc định
 
